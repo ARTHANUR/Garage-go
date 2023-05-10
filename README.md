@@ -46,10 +46,6 @@ Garage Go is a web-based garage management system developed using HTML, CSS, Jav
 - Generate and print invoices for completed services.
 - Log out when done.
 
-## License
-
-This project is licensed under the [MIT License](LICENSE).
-
 ## Contributing
 
 Contributions are welcome! If you have any ideas, suggestions, or bug fixes, please open an issue or submit a pull request.
