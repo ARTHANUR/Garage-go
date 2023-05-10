@@ -1,0 +1,414 @@
+@import url('https://fonts.googleapis.com/css2?family=Handlee&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Distressed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+/* font-family: 'Handlee', cursive; */
+/* font-family: 'Rubik Distressed', cursive;
+font-family: 'Comic Neue', cursive; */
+/* font-family: 'Roboto', sans-serif; */
+
+
+
+
+body{
+    padding: 0%;
+    margin: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+.shutter{
+    position: absolute;
+    top: 0px;
+    z-index: 2;
+    
+    
+}
+
+
+
+.nav-bar{
+    background-color: red;
+    width: 100%;
+    height: 50px;
+    background-color: #F3F63A;
+    opacity: 40%;
+    
+}
+.nav-item{
+    list-style: none;
+  
+    
+}
+.home-nav{
+    position: absolute;
+    right: 270px ;
+    top: 1rem;
+    cursor: pointer;
+    
+}
+.home-link{
+    text-decoration: none;
+    color: black;
+}
+.about-nav{
+    position: absolute;
+    right: 40px;
+    top: 1rem;
+    cursor: pointer;
+}
+.about-link{
+    text-decoration: none;
+    color: black;
+}
+.contact-nav{
+    position: absolute;
+    top: 1rem;
+    right: 150px;
+    cursor: pointer;
+}
+.contact-link{
+    text-decoration: none;
+    color: black;
+}
+ 
+/* main page........................................ */
+
+
+.main{
+    
+    position:relative;
+    top: 0px;
+    
+    
+}
+.old-car{
+    position: relative;
+    bottom: 110px;
+}
+.register{
+    font-size: 6rem;
+    position: absolute;
+    color: #112D4E;
+    top: 5rem;
+    left: 750px;
+    line-height: 1;
+    font-family: 'Roboto', sans-serif;
+    
+}
+.register-2{
+    font-size: 6rem;
+    color: #112D4E;
+    position: absolute;
+    top: 12em;
+    left: 1em;
+    font-family: 'Roboto', sans-serif;
+    
+}
+.highlight{
+    font-size: 10rem;
+    font-style: normal;
+    
+    /* -webkit-text-stroke: #112D4E 2px ;
+    background: conic;
+    background-image: url(image/abstract.png);
+    background-size: cover;
+    background-clip: text; 
+    -webkit-background-clip: text;   */
+    color: transparent;
+    background: radial-gradient(147.87% 475.86% at -1.91% 50.38%, #5483FD 27.08%, rgba(221, 228, 249, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+-webkit-background-clip: text;
+background-clip: text;
+text-fill-color: transparent;
+-webkit-text-fill-color: transparent;
+
+
+
+}
+
+
+.lambo{
+    width: 800px;
+    left: 650px;
+    position: absolute;
+    top: 1000px;
+
+}
+.main-login{
+    position: absolute;
+    top: 600px;
+    width: 10em;
+    box-shadow: 12px 11px 22px rgba(0, 0, 0, 0.25);
+}
+.login-link{
+    text-decoration: none;
+    color: white;
+}
+.login-link:hover{
+    color: black;
+    font-weight: bold;
+}
+.headlight{
+    width: 210px;
+    height: 218px;
+    background-color: red;
+    position: absolute;
+    left: 320px;
+    top: 420px;
+    border-radius: 100%;
+    background: transparent;
+}
+.headlight:hover{
+    /* background: rgba(255, 161, 50, 0.56); */
+    /* background: rgba(255, 161, 50, 0.69); */
+    background: rgba(252, 137, 6, 0.87);
+box-shadow: 0px 4px 100px 50px rgba(250, 120, 47, 0.25), 0px 0px 370.138px #EF721F, 0px 0px 211.507px #EF721F, 0px 0px 123.379px #EF721F, 0px 0px 61.6896px #EF721F, 0px 0px 17.6256px #EF721F, 0px 0px 8.8128px #EF721F;
+opacity: 1000%;
+}
+.round-text{
+    width: 310px;
+    position: absolute;
+    top: 1368px;
+    left: 970px;
+}
+
+
+
+
+/* login page............................................... */
+
+.login-page{
+    background-image: url();
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+    
+}
+
+.wheel{
+    width: 700px;
+    position: absolute;
+    top: 50px;
+    left: -150px;
+
+    
+}
+
+.center-box{
+    width: 950px;
+    height: 690px;
+    background-image: url(image/loginbackground.png);
+    background-size:cover;
+    position: relative;
+    /* left: 250px; */
+    left: 350px;
+    top: 90px;
+    
+}
+.login-copyright{
+    position: relative;
+    top: 110px;
+    left: 650px;
+    font-weight: lighter;
+    font-size: small;
+}
+.login-section{
+    background-color:#F3F63A;
+    width: 500px;
+    height: 600px;
+    position: relative;
+    top: 25px;
+    left: 35px;
+    border-radius: 7%;
+    opacity: 0.6;
+    
+}
+.login-section img{
+    width: 100px;
+    height: 100px;
+    margin-left: 200px;
+    margin-top: 10px;
+    
+
+}
+.login-section h1{
+     margin-left: 200px; 
+   
+}
+
+.login-section .form-floating{
+    width: 75%;
+    margin: 1em auto ;
+
+}
+.login-section .checkbox{
+    padding-left: 180px;
+    margin-top: 30px;
+}
+.login-section button{
+    padding: 2px 100px;
+    margin: 20px 100px;
+    
+    
+}
+.login-section .input-section{
+    margin-top: 3em;
+}
+    
+
+/* about section....................................................... */
+.about-text{
+    position: absolute;
+    top: 39em;
+    left: 12em;
+    font-family: 'Handlee', cursive;
+    font-size: 50px;
+    font-weight: 600;
+    
+}
+.about-section{
+    height: 600px;
+    
+    position: relative;
+    top: 55em;
+    width: 100%;
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: space-around;
+    
+}
+.about-section img{
+    border-radius: 20px;
+    margin-top: 10em;
+    
+}
+.vision:hover{
+    margin-top: 7em;
+    transition: 200ms ease-in-out;
+    filter: drop-shadow(10px 30px 60px rgba(0, 0, 0, 0.4));
+    
+}
+.mission:hover{
+    margin-top: 7em;
+    transition: 200ms ease-in-out;
+    filter: drop-shadow(10px 30px 60px rgba(0, 0, 0, 0.4));
+}
+.objective:hover{
+    margin-top: 7em;
+    transition: 200ms ease-in-out;
+    filter: drop-shadow(10px 30px 60px rgba(0, 0, 0, 0.4));
+}
+
+/* ............................................................... */
+
+.van{
+    position: relative;
+    top: 50em;
+    right: 2em;
+}
+
+
+/* contact section.................................................... */
+
+#contact{
+    height: 430px;
+    position: relative;
+    top: 45em;
+    background-color: #f3f63ab9;
+    border-top-left-radius: 60%;
+    padding-top: 40px;
+}
+#contact h3{
+    text-align: center;
+    font-family: 'Handlee', cursive;
+    font-size: 50px;
+    font-weight: 600;
+    margin-bottom: 20px;
+
+}
+
+#contact h2{
+    text-align: center;
+    font-size: 4em;
+    font-family: 'Roboto', sans-serif;
+    opacity: 0.8;
+}
+#contact .question{
+     text-align: center; 
+     margin-top: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+#contact textarea{
+    margin-top: 15px;
+}
+#contact button{
+    margin-top: 15px;
+    margin-left: 170px;
+    width: 100px;
+}
+
+#contact img{
+    margin-left: 49px;
+    width: 50px;
+}
+#contact p{
+    font-family: 'Roboto', sans-serif;
+    
+    
+    
+}
+#contact .acc-name{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-bottom: 30px;
+    padding-left: 0%;
+    padding-bottom: 100px;
+}
+#contact .back-to-top{
+    background-color: aqua;
+    width: 50px;
+    border-radius: 100%;
+}
+.back-arrow{
+    display: flex;
+    flex-direction: column-reverse;   
+}
+
+/* owner-info ............................................................... */
+.owner-container{
+    background: linear-gradient(135deg, rgba(255, 247, 32, 0.01) 42.12%, rgba(213, 204, 0, 0.65) 100%);
+    border-radius: 49px; 
+    width: 1370px;
+    height: 800px;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 300px;
+   
+    
+}
+.owner-sideinfo{
+    width: 470px;
+    background-color:#fbfd8de0;
+    height: 800px;
+    background: rgba(217, 217, 217, 0.02);
+box-shadow: 10px 15px 25px 2px rgba(0, 0, 0, 0.25);
+border-radius: 65px;
+    padding-top: 100px;
+}
+.owner-sideinfo h3{
+    font-size: 5rem;
+    font-weight: 1500;
+    color:white;
+    -webkit-text-stroke: 4px #112D4E;
+    text-align: center;
+    font-family: 'Handlee', cursive;
+    
+}
+.carousel-comments{
+    
+    height: 250px;
+    width: 400px;
+    margin-left: 30px;
+    margin-top: 80px;
+    border-radius: 20px;
+}
