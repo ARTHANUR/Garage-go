@@ -53,6 +53,9 @@ Contributions are welcome! If you have any ideas, suggestions, or bug fixes, ple
 ## Owner
 This project was made by [Shashank](https://github.com/ARTHANUR)
 
+# Video Walkthrough:
+See the video walkthrough of the project [Here](https://www.linkedin.com/posts/shashank-arthanur_softwaredevelopment-garagemanagement-html-ugcPost-7062148032858894336-rcVE?utm_source=share&utm_medium=member_desktop)
+
 # Desktop View :
 
 ![image]( https://res.cloudinary.com/dboa7dqkl/image/upload/v1683749709/Garage%20Go/Screenshot_2023-05-10_201328_d89qbo.png )
